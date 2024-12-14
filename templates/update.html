@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="card">
+  <h4 class="fw-bold mb-4">Actualizar tarea</h4>
+  <form action="/update_Task/{{task.id}}" method="POST">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label"><strong>Nombre de la actividad</strong></label>
+      <input type="text" class="form-control" name="titulo" value="{{task.titulo}}" placeholder="Nombre de la actividad">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"><strong>Descripcion:</strong></label>
+      <textarea class="form-control" name="descripcion" rows="3">{{task.descripcion}}</textarea>
+    </div>
+    
+    <select name="Estado" value="{{task.estado}}" class="form-select mb-3" aria-label="Default select example">
+      <option value="Iniciada" {% if task.estado == "Iniciada" %}selected{% endif %}>Iniciada</option>
+      <option value="pendiente" {% if task.estado == "pendiente" %}selected{% endif %}>pendiente</option>
+      <option value="En proceso" {% if task.estado == "En proceso" %}selected{% endif %}>En proceso</option>
+      <option hidden disabled value="Finalizado" {% if task.estado == "Finalizado" %}selected{% endif %}>Finalizado</option>
+    </select>
+
+    <div class="col-12">
+      <button class="btn btn-submit w-100">Guardar</button>
+    </div>
+  </form>
+</div>
+
+{% endblock %}
