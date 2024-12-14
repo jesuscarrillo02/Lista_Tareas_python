@@ -2,6 +2,10 @@ Explicacion rapida de la aplicacion:
 
 es una aplicacion wed que al ejecutarse de transmitira en el puerto 5000, esta tiene dos paginas principales, la primera sinedo     donde estara el formualrio para poder registrar nuevas tareas junto con la tabla que muestra la lista de registros de cada una de las tareas, esta funciona con sqlite con un archivo interno que contiene la base de datos ubicado en la carpeta "instance".
 
+Requerimientos:
+
+antes de procedes con el arranque del proyecto primero deveras de construir un entorno virtual, para ello utiliza el comando "python -m virtualenv env" en la terminal de tu proyecto , ademas de eso deberas de utilizr el comando  "pip install" para instalar las bibliotecas utilizadas, estas estaran en el archivo "requeriments.txt" hay se encunetran las bibliotecas y extenciones utilizadas para el proyecto.
+
 Instrucciones:
 
 1.-Para ejecutar la aplicacion debes de ir a tu visual studio.
