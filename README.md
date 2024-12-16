@@ -35,4 +35,6 @@ editar el registro, ![alt text](/Img_aplicacion/Edicion_registros.png)
 
 11.- para esportarlos preciones en el seleccionde archivo y escoja el archivo de formato json despues solo presion en "exportar archivo"
 
-Imagen de los resultados de la evaluacion por SonarQA : ![alt text](/Img_aplicacion/image.png)
+Imagen de los resultados de la evaluacion por SonarQube con librerias: ![alt text](/Img_aplicacion/image.png)
+
+Imagen de los resultados de la evaluacion por SonarQube sin librerias: ![alt text](/Img_aplicacion/Captura de evaluacion SonarQube.jpg)
