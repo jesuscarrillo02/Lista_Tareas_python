@@ -4,7 +4,13 @@ es una aplicacion wed que al ejecutarse de transmitira en el puerto 5000, esta t
 
 Requerimientos:
 
-antes de procedes con el arranque del proyecto primero deveras de construir un entorno virtual, para ello utiliza debera de ir al directorio donde guarde los archivos correspondiente al poryecto y debera de insertar el comando "python -m virtualenv env" en la terminal de tu proyecto, luego deberas de utilizr el comando  "pip install" para instalar las bibliotecas utilizadas, estas estaran en el archivo "requeriments.txt" hay se encunetran las bibliotecas y extenciones utilizadas para el proyecto.
+antes de procedes con el arranque del proyecto primero deveras de construir un entorno virtual, para ello utiliza debera de ir al directorio donde guarde los archivos correspondiente al poryecto y debera de insertar el comando "python -m virtualenv env" en la terminal de tu proyecto.
+![image](https://github.com/user-attachments/assets/ab115d75-836a-4ce2-ad7f-ce41be397f67)
+
+
+luego deberas de utilizr el comando  "pip install" para instalar las bibliotecas utilizadas, estas estaran en el archivo "requeriments.txt" hay se encunetran las bibliotecas y extenciones utilizadas para el proyecto.
+![image](https://github.com/user-attachments/assets/914ab1ce-a14f-4e9a-abe7-82188e52ff61)
+
 
 Instrucciones:
 
